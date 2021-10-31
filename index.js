@@ -98,10 +98,10 @@ async function run(){
 }
 run().catch(console.dir);
 app.get('/', (req, res) => {
-    res.send('Ema john server is running')
+    res.send('Trip Master server is running')
 })
 
 // listen server
 app.listen(port, () =>{
-    console.log('server runnign at port', port)
+    console.log('server runnig')
 })
